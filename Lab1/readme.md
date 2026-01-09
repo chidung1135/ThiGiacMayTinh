@@ -1,19 +1,19 @@
 LAB 1: XỬ LÝ ẢNH VỚI THƯ VIỆN PILLOW VÀ OPENCV
 
-#1. Mục tiêu
-#Làm quen với các thao tác cơ bản trên ảnh kỹ thuật số như: hiển thị ảnh, cắt ảnh (cropping), tách kênh màu.
-#Hiểu rõ sự khác biệt về cấu trúc dữ liệu và cơ chế xử lý ảnh giữa hai thư viện Pillow (PIL) và OpenCV (cv2).
-#Thực hành chuyển đổi không gian màu phổ biến: BGR, RGB và Grayscale.
-#2. Công cụ sử dụng
-#Ngôn ngữ: Python 3.x
-#Thư viện:
-#Pillow (PIL): Xử lý ảnh cơ bản, thao tác trực quan.
-#opencv-python (cv2): Xử lý ảnh dưới dạng mảng đa chiều, tốc độ cao.
-#numpy: Quản lý và thao tác ma trận điểm ảnh.
-#matplotlib: Hiển thị ảnh và kết quả trực quan.
-#3. Nội dung thực hiện
+1. Mục tiêu
+Làm quen với các thao tác cơ bản trên ảnh kỹ thuật số như: hiển thị ảnh, cắt ảnh (cropping), tách kênh màu.
+Hiểu rõ sự khác biệt về cấu trúc dữ liệu và cơ chế xử lý ảnh giữa hai thư viện Pillow (PIL) và OpenCV (cv2).
+Thực hành chuyển đổi không gian màu phổ biến: BGR, RGB và Grayscale.
+2. Công cụ sử dụng
+Ngôn ngữ: Python 3.x
+Thư viện:
+Pillow (PIL): Xử lý ảnh cơ bản, thao tác trực quan.
+opencv-python (cv2): Xử lý ảnh dưới dạng mảng đa chiều, tốc độ cao.
+numpy: Quản lý và thao tác ma trận điểm ảnh.
+matplotlib: Hiển thị ảnh và kết quả trực quan.
+3. Nội dung thực hiện
 # Phần 1: Xử lý ảnh bằng Pillow (PIL)
-#Các thao tác được thực hiện trong file '2.1.1_Images_with_python_library_PIL.ipynb':
+Các thao tác được thực hiện trong file '2.1.1_Images_with_python_library_PIL.ipynb':
 1.Load Image
 Sử dụng Image.open() để đọc file ảnh từ thư mục.
 Kiểm tra các thuộc tính cơ bản của ảnh như size, mode.
